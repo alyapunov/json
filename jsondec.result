@@ -1,0 +1,41 @@
+{
+	"a":[1, 2, 3],
+	"b":false,
+	"c":"test"
+}
+
+[
+"aaa",
+"bbb",
+null,
+1e20,
+-1e-20,
+{"a":"b","c":"d"}
+]
+["get", "2001-01-01", "RU"]
+----------
+OBJECT 6
+STRING "a"
+ARRAY 3
+NUMBER 1
+NUMBER 2
+NUMBER 3
+STRING "b"
+NUMBER false
+STRING "c"
+STRING "test"
+ARRAY 6
+STRING "aaa"
+STRING "bbb"
+NULL
+NUMBER 1e+20
+NUMBER -1e-20
+OBJECT 4
+STRING "a"
+STRING "b"
+STRING "c"
+STRING "d"
+ARRAY 3
+STRING "get"
+STRING "2001-01-01"
+STRING "RU"
